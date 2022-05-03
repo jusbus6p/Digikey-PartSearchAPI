@@ -15,7 +15,7 @@ KeywordSearch can search for any product in the Digi-Key catalog.
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**KeywordSearchRequest**](KeywordSearchRequest.md)|  | [optional] 
+ **keyword_search_request** | [**KeywordSearchRequest**](KeywordSearchRequest.md)|  | [optional] 
 
 ### Return type
 
