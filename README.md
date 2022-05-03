@@ -73,10 +73,10 @@ client = ApiClient(config)
 api = PartSearchAPI(client)
 
 try:
-    pfilters = ParametricFilter(-5, start)
+    pfilters = ParametricFilter(-5, 10)
     filteroption = Filters(parametric_filters=pfilters)
 
-    kwsr = KeywordSearchRequest(keywords="-", record_count=50, record_start_position=start, filters=filteroption)
+    kwsr = KeywordSearchRequest(keywords="-", record_count=50, record_start_position=0, filters=filteroption)
     
     data = api.keyword_search(kwsr)
     if data is not None:
