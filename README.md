@@ -11,10 +11,11 @@ For more information, please visit [https://developer.digikey.com/support](https
 
 ## Requirements.
 
-Python 2.7 and 3.4+
-six~=1.16.0
-requests~=2.27.1
-setuptools==62.1.0
+- Python 2.7 and 3.4+
+
+- six~=1.16.0
+- requests~=2.27.1
+- setuptools==62.1.0
 
 ## Installation & Usage
 ### pip install
