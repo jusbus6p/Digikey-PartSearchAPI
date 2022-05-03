@@ -90,19 +90,10 @@ except ApiException as e:
 
 All URIs are relative to *https://api.digikey.com/Search/v3*
 
-*NOTE:*
-keyword_search is the only API that is currently implemented.
-
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*PartSearchApi* | [**categories**](docs/PartSearchApi.md#categories) | **GET** /Categories | Returns all Product Categories. Category Id can be used in KeywordSearchRequest.Filters.TaxonomyIds to restrict a keyword search to a given category
-*PartSearchApi* | [**categories_by_id**](docs/PartSearchApi.md#categories_by_id) | **GET** /Categories/{categoryId} | Returns Category for given Id. Category Id can be used in KeywordSearchRequest.Filters.TaxonomyIds to restrict a keyword search to a given category
-*PartSearchApi* | [**digi_reel_pricing**](docs/PartSearchApi.md#digi_reel_pricing) | **GET** /Products/{digiKeyPartNumber}/DigiReelPricing | Calculate the DigiReel pricing for the given DigiKeyPartNumber and RequestedQuantity
 *PartSearchApi* | [**keyword_search**](docs/PartSearchApi.md#keyword_search) | **POST** /Products/Keyword | KeywordSearch can search for any product in the Digi-Key catalog.
-*PartSearchApi* | [**manufacturer_product_details**](docs/PartSearchApi.md#manufacturer_product_details) | **POST** /Products/ManufacturerProductDetails | Create list of ProductDetails from the matches of the requested manufacturer product name.
-*PartSearchApi* | [**manufacturers**](docs/PartSearchApi.md#manufacturers) | **GET** /Manufacturers | Returns all Product Manufacturers. ManufacturersId can be used in KeywordSearchRequest.Filters.ManufacturerIds to restrict a keyword search to a given Manufacturer
-*PartSearchApi* | [**product_details**](docs/PartSearchApi.md#product_details) | **GET** /Products/{digiKeyPartNumber} | Retrieve detailed product information including real time pricing and availability.
-*PartSearchApi* | [**suggested_parts**](docs/PartSearchApi.md#suggested_parts) | **GET** /Products/{partNumber}/WithSuggestedProducts | Retrieve detailed product information and two suggested products
+
 
 
 ## Documentation For Models
